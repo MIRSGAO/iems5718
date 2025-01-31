@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/product.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="toy.html">Toy</a></li>
+                <li><a href="plants.html">Plants</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb">       
+        <a href="index.html">Home</a> &gt; <a href="clothes.html">Clothes</a> &gt; <span>Clothes 1</span>
+    </nav>
+
+    <!-- Product Details -->
+    <section class="product-details">
+        <img src="images/clothes1.jpg" alt="Clothes 1" class="product-image">
+        <h2>Clothes 1</h2>
+        <p class="description">This is a detailed description of Clothes 1. It is a high-quality item with many features.</p>
+        <p class="price">$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="shopping-cart">
+        <h3>Shopping Cart</h3>
+        <ul>
+            <li>Clothes 1 <input type="number" value="1" min="1"></li>
+        </ul>
+        <p>Total: $<span class="cart-total">0.00</span></p>
+        <button class="checkout">Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Shopping Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
